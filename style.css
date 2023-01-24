@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Georgia, serif;;
+    box-sizing: border-box;
+}
+.container{
+    width: 100vw;
+    height: 100vh;
+    background-image: url(./images/images1.jfif);
+    display: flex;
+    justify-content: center;
+    /* background-position: center; */
+}
+.container1{
+    width: 65vh;
+    height: 100vh;
+    background-image: url(./images/IMG-20221225-WA0032.jpg);
+    background-size: cover;
+    margin-left:80px;
+}
+.content{
+    margin-top: 100px;
+}
+.content h1{
+    color: rgb(241, 250, 111);
+    font-size: 40px;
+    font-weight: 600; 
+}
+/* .content span{
+    color: rgb(255, 0, 191);
+} */
+.time{
+    display: flex;
+    /* text-align: center; */
+    color: rgb(241, 250, 111);
+    margin-top: 90px;
+    margin-left: 100px;
+}
+.time div{
+    flex-basis: 100px;
+
+}
+.time div p{
+    font-size: 55px;
+    margin-bottom: 8px;
+    font-weight: 750;
+}
+.time div span{
+    font: bold;
+    font-size: 20px;
+    /* margin-bottom: 14px; */
+    /* font-weight: 500; */
+}
